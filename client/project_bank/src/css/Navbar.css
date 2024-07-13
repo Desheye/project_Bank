@@ -1,0 +1,40 @@
+@font-face {
+    font-family:'NovaSquare';
+    src: url(../Fontz/NovaSquare-Regular.woff2);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-grid{
+  z-index: 10;
+  background: none;
+}
+.brand, .btn{
+    font-family:'NovaSquare';
+    padding: 0px 1rem;
+}
+.btn{
+    font-weight: 600;
+    padding: .5rem;
+}
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+}
+  
+  .icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: lightcoral;
+  }
+  
+  .icon-button:hover .icon {
+    transform: scale(1.1);
+  }

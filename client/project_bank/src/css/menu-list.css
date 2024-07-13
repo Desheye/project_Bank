@@ -1,0 +1,44 @@
+@font-face {
+    font-family:'Macondo';
+    src: url(../Fontz/Macondo-Regular.woff);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-lists{
+    width: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    margin-top: 5rem;
+}
+.menu-lists .col-link{
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+.col-link:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  .menu-lists .col-link .text-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    font-size: .9rem;
+    font-family:'Macondo';
+    text-align: center;
+}
